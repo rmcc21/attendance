@@ -1,0 +1,15 @@
+GET http://127.0.0.1:8080/attendance
+
+###
+POST http://127.0.0.1:8080/attendance HTTP/1.1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "datetime": "2022-11-20@12:00:00",
+  "latitude": 10.0,
+  "longitude": -1.0,
+  "photo": "myPhoto",
+  "type": "IN",
+  "userLink": "string"
+}
